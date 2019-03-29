@@ -4,7 +4,7 @@
     MicroPython固件使用的是Lobo的micropython固件而非官网固件，
     此程序仅对加速度X轴数据进行了平滑滤波和上传，
   
-  ```mermaid
+```mermaid
 graph LR
 A[mpu6050采集] -- IIC --> B((ESP32))
 B -->C[平滑滤波]
