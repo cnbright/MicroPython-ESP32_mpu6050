@@ -1,0 +1,2 @@
+# MicroPython-ESP32_mpu6050
+采用Lobo MicroPython编程，使用ESP32采集mpu6050数据，对加速度X轴数据进行了平滑滤波，通过mqtt与PC通信，再在上位机动态显示数据
